@@ -9,7 +9,7 @@ authorLink: "https://dillonzq.com"
 description: "Discover what the Hugo - LoveIt theme is all about and the core-concepts behind it."
 images: ["/images/theme-documentation-basics/featured-image.jpg"]
 
-tags: ["installation", "configuration"]
+tags: ["installation", "configuration", "javascript", "html"]
 categories: ["documentation"]
 featuredImage: "/images/theme-documentation-basics/featured-image.jpg"
 
