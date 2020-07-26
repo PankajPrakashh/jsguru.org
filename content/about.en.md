@@ -7,6 +7,8 @@ lightgallery: true
 
 math:
   enable: true
+
+hiddenfromhomepage: true
 ---
 
 {{< style "img { height: 1.25rem; }" >}}
