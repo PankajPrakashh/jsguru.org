@@ -38,8 +38,8 @@ enableEmoji = true
         pre = ""
         # you can add extra information after the name (HTML format is supported), such as icons
         post = ""
-        name = "Posts"
-        url = "/posts/"
+        name = "Angular"
+        url = "/angular/"
         # title will be shown when you hover on this menu link.
         title = ""
         weight = 1
