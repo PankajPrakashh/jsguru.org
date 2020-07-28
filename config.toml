@@ -80,7 +80,7 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/pankajprakashh"
+        url = "https://github.com/pankajprakashh/jsguru.org"
         title = "GitHub"
         weight = 6
     [languages.en.params]
@@ -223,7 +223,7 @@ enableEmoji = true
   version = "0.2.X"
   # site default theme ("light", "dark", "auto")
   # 网站默认主题 ("light", "dark", "auto")
-  defaultTheme = "dark"
+  defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   gitRepo = "https://github.com/pankajprakashh/jsguru.org"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
