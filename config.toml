@@ -120,9 +120,9 @@ enableEmoji = true
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
         [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+          index = "jsguru_prod"
+          appID = "KBLD845R5K"
+          searchKey = "cf756ea0f187cd48365a665e2dbb8e44"
       # Home page config
       [languages.en.params.home]
         # amount of RSS pages
@@ -319,7 +319,7 @@ enableEmoji = true
       # whether to show the copy button of the code block
       copy = true
       # the maximum number of lines of displayed code by default
-      maxShownLines = 10
+      maxShownLines = 100
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     [params.page.math]
       enable = false
@@ -384,9 +384,9 @@ enableEmoji = true
       enable = true
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
-        enable = false
+        enable = true
         # Disqus shortname to use Disqus in posts
-        shortname = ""
+        shortname = "JsGuru"
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
         enable = false
@@ -396,9 +396,9 @@ enableEmoji = true
         clientSecret = ""
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        enable = false
+        appId = ""
+        appKey = ""
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -447,7 +447,7 @@ enableEmoji = true
     [params.page.seo]
       # Publisher info
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "Pankaj Prakash"
         [params.page.seo.publisher.logo]
           url = "logo.png"
           width = 127
@@ -485,10 +485,10 @@ enableEmoji = true
 
   # Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-YZWLFH2R2B"
       # whether to anonymize IP
       anonymizeIP = true
       # whether to use cookie
