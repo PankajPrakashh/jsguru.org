@@ -339,6 +339,7 @@ class Theme {
         });
         this.util.forEach(document.querySelectorAll('.highlight > .chroma'), $chroma => {
             const $codeElements = $chroma.querySelectorAll('pre.chroma > code');
+            $chroma.classList.add('open');
             if ($codeElements.length) {
                 const $code = $codeElements[$codeElements.length - 1];
                 const $header = document.createElement('div');
