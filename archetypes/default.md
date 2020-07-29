@@ -18,3 +18,7 @@ featuredImage: "/images/theme-documentation-basics/featured-image.jpg"
 lightgallery: true
 ---
 
+
+&nbsp;
+&nbsp;
+Happy Coding :man_technologist:
