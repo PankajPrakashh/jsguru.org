@@ -13,7 +13,7 @@ images: []
 
 tags: ["Angular", "Router", "Debugging", "Tips", "Snippets" ]
 categories: ["Angular"]
-featuredImage: "/images/theme-documentation-basics/featured-image.jpg"
+featuredImage: "/images/how-to-enable-route-tracing/feature.png"
 
 lightgallery: true
 ---
