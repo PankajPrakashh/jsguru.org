@@ -5,6 +5,48 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "headers": [
+      {
+        "source": "**/images/**",
+        "headers": [ 
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "https://jsguru.org"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "max-age=31536000"
+          }
+        ]
+      },
+      {
+        "source": "**/lib/**",
+        "headers": [ 
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "https://jsguru.org"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "max-age=31536000"
+          }
+        ]
+      },
+      {
+        "source": "**/svg/**",
+        "headers": [ 
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "https://jsguru.org"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "max-age=31536000"
+          }
+        ]
+      }
+    ],
+    "trailingSlash": false
   }
 }
