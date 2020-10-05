@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "hugo -D",
+    "build": "rm -rf public && npm run build:hugo",
+    "build:hugo": "hugo",
     "deploy": "firebase deploy --debug --token \"$FIREBASE_TOKEN\" --only hosting"
   },
   "repository": {
