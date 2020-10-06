@@ -38,7 +38,7 @@
 
     <article class="page single">
         {{- /* Title */ -}}
-        <h1 class="single-title animated fadeIn">{{ .Title }}</h1>
+        <h1 class="single-title">{{ .Title }}</h1>
 
         {{- /* Subtitle */ -}}
         {{- with $params.subtitle -}}
@@ -55,21 +55,21 @@
                     {{- partial "plugin/link.html" $options -}}
                 </span>
 
-                {{- with .Params.categories -}}
+                <!-- {{- with .Params.categories -}}
                     &nbsp;
                     <span class="post-category">
                         {{- T "included" -}}
                         {{- range $index, $value := . -}}
                             {{- if gt $index 0 }}&nbsp;{{ end -}}
                             {{- $category := $value | anchorize | printf "/categories/%s" | $.Site.GetPage -}}
-                            <a href="{{ $category.RelPermalink }}">
+                            <a href="{{ $category.RelPermalink }}" class="{{$category.Title}}">
                                 <i class="far fa-folder fa-fw"></i>{{ $category.Title }}
                             </a>
                         {{- end -}}
                     </span>
-                {{- end -}}
+                {{- end -}} -->
             </div>
-            <div class="post-meta-line">
+            <!-- <div class="post-meta-line">
                 {{- $publish_date := .PublishDate.Format (.Site.Params.dateformat | default "2006-01-02") -}}
                 <i class="far fa-calendar-alt fa-fw"></i><time datetime={{ $publish_date }}>{{ $publish_date }}</time>&nbsp;
                 <i class="fas fa-pencil-alt fa-fw"></i>{{ T "wordCount" .WordCount }}&nbsp;
@@ -80,7 +80,7 @@
                         <i class="far fa-eye fa-fw"></i><span class=leancloud-visitors-count></span>&nbsp;{{ T "views" }}
                     </span>&nbsp;
                 {{- end -}}
-            </div>
+            </div> -->
         </div>
 
         {{- /* Featured image */ -}}
