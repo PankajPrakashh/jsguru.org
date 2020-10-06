@@ -3,6 +3,8 @@ header {
   z-index: 150;
   background-color: $header-background-color;
 
+  @include background-color-transition();
+
   [theme=dark] & {
     background-color: $header-background-color-dark;
   }
