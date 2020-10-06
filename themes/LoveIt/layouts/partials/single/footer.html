@@ -6,13 +6,11 @@
         <div class="post-info-line">
             <div class="post-info-mod">
                 <span>
-                    {{- printf (T "lastMod") $modify_date -}}
-                    {{- if .Site.Params.gitRepo -}}
-                        {{- with .GitInfo -}}
-                            &nbsp;<a class="git-hash" href="{{ printf `%s/commit/%s` $.Site.Params.gitRepo .Hash }}" target="_blank" title="commit by {{ .AuthorName }}({{ .AuthorEmail }}) {{ .Hash }}: {{ .Subject }}">
-                                <i class="fas fa-hashtag fa-fw"></i>{{- .AbbreviatedHash -}}
-                            </a>
-                        {{- end -}}
+                    {{- if .Site.Params.gitRepoContent -}}
+                        <i class="fab fa-github"></i>
+                        <a class="git-hash" href="{{ $.Site.Params.gitRepoContent }}/{{ $.File.Path }}" target="_blank">
+                            Modify this article on GitHub
+                        </a>
                     {{- end -}}
                 </span>
             </div>

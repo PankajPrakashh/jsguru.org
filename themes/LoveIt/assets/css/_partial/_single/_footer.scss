@@ -14,11 +14,17 @@
       justify-content: space-between;
 
       .post-info-mod {
-        font-size: 0.8em;
+        font-size: 0.9em;
         color: $global-font-secondary-color;
 
         [theme=dark] & {
           color: $global-font-secondary-color-dark;
+        }
+
+        i.fas,
+        i.fab,
+        i.far {
+          margin-right: 2px;
         }
 
         @include link(false, false);

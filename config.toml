@@ -226,6 +226,7 @@ enableEmoji = true
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   gitRepo = "https://github.com/pankajprakashh/jsguru.org"
+  gitRepoContent = "https://github.com/pankajprakashh/jsguru.org/tree/master/content"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   # date format
