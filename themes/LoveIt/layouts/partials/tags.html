@@ -1,0 +1,14 @@
+<section class="post-tags">
+  {{- with .Params.tags -}}
+    <!-- <i class="fas fa-tags fa-fw"></i>&nbsp; -->
+    {{- range $index, $value := . -}}
+    <!-- {{- if gt $index 0 }},&nbsp;{{ end -}} -->
+      {{- $tag := $value | anchorize | printf "/tags/%s" | $.Site.GetPage -}}
+      <a href="{{ $tag.RelPermalink }}" 
+        class="tag {{ lower $tag.Title }}" 
+        title="View all {{ $tag.Title }} posts">
+        #{{ lower $tag.Title }}
+      </a>
+    {{- end -}}
+  {{- end -}}
+</section>

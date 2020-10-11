@@ -2,7 +2,7 @@
 
 .single {
   .single-title {
-    margin: 1rem 0 0rem;
+    margin: 1rem 0 .5rem;
     font-size: 2rem;
     font-weight: bold;
     line-height: 140%;
@@ -30,11 +30,19 @@
       display: inline-block;
     }
 
+    .post-meta-line {
+      display: flex;
+      justify-content: space-between;
+    }
+
     [theme=dark] & {
       color: $global-font-secondary-color-dark;
     }
 
-    @include link(false, true);
+
+    .post-author {
+      @include link(false, true);
+    }
 
     .author {
       font-size: 1.05rem;

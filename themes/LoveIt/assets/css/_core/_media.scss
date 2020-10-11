@@ -70,4 +70,25 @@
       }
     }
   }
+
+  .post-meta {
+    .post-meta-line {
+      display: block !important;
+    }
+  }
+
+  .post-tags {
+    .tag {
+      display: inline-block;
+      margin: 2px;
+    }
+  }
+
+  .home {
+    .summary {
+      .post-footer {
+        display: block;
+      }
+    }
+  }
 }

@@ -1,0 +1,71 @@
+// Default colors
+$tag-default-color: #000;
+$tag-default-color-dark: #fff;
+
+// Default background colors
+$tag-default-background-color: #d4d4d4;
+$tag-default-background-color-dark: #696969;
+
+@mixin hover-effect($background-color) {
+  background-color: lighten($background-color, 10%);
+  box-shadow: 0px 1px 0px 0px darken($background-color, 2%);
+}
+
+// List of different tag stylings
+$tags-color: (
+  "angular": (
+    "background-color": #dd2030,
+    "color": #fff,
+  )
+);
+
+.post-tags {
+
+  .tag {
+    padding: 5px 7px;
+    margin: 0 2px;
+    border-radius: 3px;
+    color: $tag-default-color;
+    background: $tag-default-background-color;
+
+    transition: all 0.2s ease-in;
+    transition-delay: 0s;
+
+    // &:before {
+    //   content: "#";
+    //   margin-right: 1px;
+    // }
+
+    &:hover {
+      @include hover-effect($tag-default-background-color);
+    }
+
+    [theme="dark"] & {
+
+      &:hover {
+        @include hover-effect($tag-default-background-color-dark);
+      }
+
+      color: $tag-default-color-dark;
+      background: $tag-default-background-color-dark;
+    }
+  }
+
+  @each $lang, $val in $tags-color {
+
+    .tag.#{$lang} {
+
+      &, 
+      &:before {
+        background-color: map-get($val, "background-color") !important;
+        color: map-get($val, "color") !important;
+      }
+
+      &:hover {
+        @include hover-effect(map-get($val, "background-color"));
+      }
+    }
+  }
+}
+
+
