@@ -10,7 +10,8 @@
             {{- if eq $taxonomy "category" -}}
                 <i class="far fa-folder-open fa-fw"></i>&nbsp;{{ .Title }}
             {{- else if eq $taxonomy "tag" -}}
-                <i class="fas fa-tag fa-fw"></i>&nbsp;{{ .Title }}
+                <!-- <i class="fas fa-tag fa-fw"></i>&nbsp;{{ .Title }} -->
+                <span class="tag {{ lower .Title}}" title="Showing all {{ lower .Title }} posts">#{{ lower .Title }}</span>
             {{- else -}}
                 {{- printf "%s - %s" (T $taxonomy | default $taxonomy) .Title -}}
             {{- end -}}

@@ -19,8 +19,7 @@ $tags-color: (
   )
 );
 
-.post-tags {
-
+@mixin tag-common() {
   .tag {
     padding: 5px 7px;
     margin: 0 2px;
@@ -68,4 +67,10 @@ $tags-color: (
   }
 }
 
+.post-tags {
+  @include tag-common();
+}
 
+.page.archive {
+  @include tag-common();
+}
