@@ -3,8 +3,8 @@
 /.well_known
 
 /archive
-
 /todo
+/projects
 
 # e2e
 **/e2e/*.js
