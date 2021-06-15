@@ -500,7 +500,7 @@ enableEmoji = true
     enable = true
     # Google Analytics
     [params.analytics.google]
-      id = "G-YZWLFH2R2B"
+      id = "UA-173931460-1"
       # whether to anonymize IP
       anonymizeIP = true
       # whether to use cookie
