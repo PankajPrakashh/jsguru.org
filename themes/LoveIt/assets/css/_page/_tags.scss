@@ -16,6 +16,10 @@ $tags-color: (
   "angular": (
     "background-color": #dd2030,
     "color": #fff,
+  ),
+  "javascript": (
+    "background-color": #f7e018,
+    "color": #000,
   )
 );
 
@@ -26,6 +30,7 @@ $tags-color: (
     border-radius: 3px;
     color: $tag-default-color;
     background: $tag-default-background-color;
+    font-weight: 500;
 
     transition: all 0.2s ease-in;
     transition-delay: 0s;
@@ -54,7 +59,7 @@ $tags-color: (
 
     .tag.#{$lang} {
 
-      &, 
+      &,
       &:before {
         background-color: map-get($val, "background-color") !important;
         color: map-get($val, "color") !important;
