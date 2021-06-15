@@ -1,7 +1,7 @@
 ---
 title: "Working with Date and Time in JavaScript"
 date: 2021-06-08T20:50:50+05:30
-draft: true
+draft: false
 
 weight: 1
 author: Pankaj Prakash
