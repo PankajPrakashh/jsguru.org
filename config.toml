@@ -96,7 +96,7 @@ enableEmoji = true
         weight = 6
     [languages.en.params]
       # site description
-      description = "Learn Javascript, Typescript, Angular, Firebase, Git and many more web developement techs by self made JsGuru - Pankaj Prakash"
+      description = "Learn Javascript, Typescript, Angular, Firebase, Git and many more web developement techs by - Pankaj Prakash"
       # site keywords
       keywords = ["Javascript", "Typescript", "Angular", "Firebase", "Git", "Web development", "Tips & tricks", "Hacks", "Pankaj Prakash"]
       # App icon config
@@ -166,7 +166,7 @@ enableEmoji = true
         Linkedin = "pankajprakashh"
         Twitter = "pankajprakashh"
         Instagram = ""
-        Facebook = "pankajprakashh"
+        Facebook = ""
         Telegram = ""
         Medium = ""
         Gitlab = ""
@@ -223,7 +223,7 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = "admin@jsguru.org"
+        Email = "admin@codeforwin.org"
         RSS = true
         # [languages.en.params.social.Mastodon]
         #   id = "@xxxx"
