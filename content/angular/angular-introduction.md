@@ -9,7 +9,7 @@ weight: 1
 author: Pankaj Prakash
 authorLink: https://jsguru.org
 description: "Angular a web application development framework developed and maintained by Google. In this article I will talk about angular, why/when to use, pros, cons and its alternatives in market."
-images: []
+images: ["/images/angular-introduction/angular-introduction-feature.png"]
 
 tags: ["Angular", "Fundamentals"]
 categories: ["Angular"]

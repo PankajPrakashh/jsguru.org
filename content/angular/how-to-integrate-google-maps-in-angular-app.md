@@ -8,7 +8,7 @@ weight: 1
 author: Pankaj Prakash
 authorLink: https://jsguru.org
 description: "In this tutorial series, I will explain you how easily you can integrate google maps in your angular application."
-images: []
+images: ["/images/how-to-integrate-google-maps-in-angular-app/feature.png"]
 
 tags: ["Angular", "Google Maps"]
 categories: ["Angular"]

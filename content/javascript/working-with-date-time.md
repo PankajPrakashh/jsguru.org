@@ -7,11 +7,11 @@ weight: 1
 author: Pankaj Prakash
 authorLink: https://jsguru.org
 description: "JavaScript Date is an object containing integer that represent time elapsed in milliseconds since 1 January 1970 UTC midnight. It’s implementation is inspired from the early implementations of java.util.Date class. In this article we will learn to different ways to create date instance, min/max representable date, bugs in existing Date API"
-images: []
+images: ["/images/javascript/working-with-date-time/feature.png"]
 
 tags: ["JavaScript", "Date"]
 categories: ["JavaScript"]
-keywords: ["JavaScript", "Date", "Bug", "minimum and maximum date range"]
+keywords: ["JavaScript",  "date api", "date bug", "date range"]
 featuredImage: "/images/javascript/working-with-date-time/feature.png"
 
 lightgallery: true

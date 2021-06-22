@@ -9,7 +9,7 @@ weight: 1
 author: Pankaj Prakash
 authorLink: https://jsguru.org
 description: "Find ways to enable angular route tracing (logs). Easy way to debug angular route configuration."
-images: []
+images: ["/images/how-to-enable-route-tracing/feature.png"]
 
 tags: ["Angular", "Router", "Debugging", "Tips", "Snippets" ]
 categories: ["Angular"]
