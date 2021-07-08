@@ -1,15 +1,11 @@
 {
   "hosting": {
     "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "headers": [
       {
         "source": "**/images/**",
-        "headers": [ 
+        "headers": [
           {
             "key": "Access-Control-Allow-Origin",
             "value": "https://jsguru.org"
@@ -22,7 +18,7 @@
       },
       {
         "source": "**/lib/**",
-        "headers": [ 
+        "headers": [
           {
             "key": "Access-Control-Allow-Origin",
             "value": "https://jsguru.org"
@@ -35,7 +31,7 @@
       },
       {
         "source": "**/svg/**",
-        "headers": [ 
+        "headers": [
           {
             "key": "Access-Control-Allow-Origin",
             "value": "https://jsguru.org"
@@ -47,6 +43,6 @@
         ]
       }
     ],
-    "trailingSlash": false
+    "trailingSlash": true
   }
 }
