@@ -11,7 +11,7 @@ authorLink: https://jsguru.org
 description: "While learning JavaScript you might have stumbled across how to get name of the week day e.g. \"Sunday\" \"Monday\" etc from date. In this article we will learn to get the day name of the week in short and long format."
 images: ["/images/javascript/feature.jpg"]
 
-tags: ["JavaScript", "Snippets", "Date"]
+tags: ["JavaScript", "Snippets", "Date", "Intl"]
 categories: ["JavaScript"]
 featuredImage: "/images/javascript/feature.jpg"
 
