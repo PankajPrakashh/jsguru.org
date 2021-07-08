@@ -119,7 +119,7 @@ $pagination-link-hover-color-dark: #fff !default;
 
 // ========== Code ========== //
 // Color of the code
-$code-color: #E74C3C !default;
+$code-color: #902014 !default;
 $code-color-dark: #E5BF78 !default;
 
 // Color of the code background
@@ -133,7 +133,7 @@ $code-info-color-dark: #b1b0b0 !default;
 $code-font-size: .875rem !default;
 
 // Font family of the code
-$code-font-family: Source Code Pro, Menlo, Consolas, Monaco, monospace, $global-font-family !default;
+$code-font-family: 'Cascadia Mono', 'Cascadia Code', 'Fira Code', Source Code Pro, Menlo, Consolas, Monaco, monospace, $global-font-family !default;
 
 // Code type map
 $code-type-map: (
