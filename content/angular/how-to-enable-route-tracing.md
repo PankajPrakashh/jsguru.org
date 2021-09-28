@@ -1,14 +1,14 @@
 ---
 title: "How to enable Route tracing - Angular 2+"
 date: 2020-07-27T18:17:25+05:30
-lastmod: 2020-07-27T18:17:25+05:30
+lastmod: 2021-09-28T06:11:23.949Z
 draft: false
 
 
 weight: 1
 author: Pankaj Prakash
 authorLink: https://jsguru.org
-description: "Find ways to enable angular route tracing (logs). Easy way to debug angular route configuration."
+description: "Find ways to enable angular route tracing (logs). Easy way to debug angular route configuration. Learn how to detect, trace and debug route changes in angular."
 images: ["/images/how-to-enable-route-tracing/feature.png"]
 
 tags: ["Angular", "Router", "Debugging", "Tips", "Snippets" ]
@@ -18,11 +18,11 @@ featuredImage: "/images/how-to-enable-route-tracing/feature.png"
 lightgallery: true
 ---
 
-Debugging an Angular app route configuration may eat up your costly time. As it may get tricky to enable route logs. Many Angular beginners frequently ask me ways to debug issues with angular routing. In this post I will explain two simple techniques using which you can debug your route issues.
+Debugging an Angular app route configuration may eat up your costly time. As it may get tricky to enable route logs. Many Angular beginners frequently ask me ways to debug issues with angular routing. In this post I will explain two simple techniques using which you can detect, trace and debug your route changes in Angular.
 
 ## RouterModule `enableTracing`
 
-Angular has built in feature to log all routing events. However route logs are disabled by default, since it may annoy developers. Set the `enableTracing` flag in the root route configuration, to enable route logs. 
+Angular has built in feature to log all route change events. However route log tracing is disabled by default, since it may annoy developers. Set the `enableTracing` flag in the root route configuration, to enable route logs. 
 
 ```ts
 // Root  router
@@ -78,7 +78,7 @@ this.router.events
   });
 ```
 
-> **Note:** Since you are subscribing to an observable (`Router.events`) you must unsubscribe to it after the use. Possibly add unsubscription logic when component gets destroyed (`ngOnDestroy`). Otherwise it will cause memory leaks. 
+> **Note:** Since you are subscribing to an observable (`Router.events`) you must unsubscribe to it after the use. Possibly add unsubscription logic when component gets destroyed (`ngOnDestroy`). Otherwise it leads to memory leaks. 
 
 &nbsp;
 &nbsp;
