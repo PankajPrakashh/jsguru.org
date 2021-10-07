@@ -56,7 +56,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
 
 .highlight {
   line-height: 1.4em;
-  margin: .5rem 0;
+  margin: 1rem 0;
 
   > .chroma {
     position: relative;
@@ -125,7 +125,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
     }
 
     .ln, .lnt {
-      color: $global-font-secondary-color;
+      color: $code-line-number;
 
       [theme=dark] & {
         color: $global-font-secondary-color-dark;
