@@ -1,9 +1,8 @@
 ---
 title: "Angular Introduction - pros, cons and alternatives"
 date: 2020-10-03T20:20:26+05:30
-lastmod: 2020-10-03T20:20:26+05:30
+lastmod: 2021-11-22T15:09:57.981+05:30
 draft: false
-
 
 weight: 1
 author: Pankaj Prakash
@@ -30,7 +29,7 @@ Angular simplifies various of your app development requirements in single box. U
 Angular is an evolved version of [AngularJS](https://angularjs.org/), and also referred as **Angular 2+**.
 
 ### What is SPA?
-Single Page Applications (SPA) are web apps that once loaded does not require to reload entire page again on navigation. You might have came across several of such apps like Gmail, Google Maps, Twitter etc.
+Single Page Applications (SPA) are web apps that once loaded does not require to reload entire page again on navigation. You might have came across several of such apps like [Gmail](https://mail.google.com), [Google Maps](https://maps.google.com), [Twitter](https://twitter.com) etc.
 These apps fetches an initial HTML content on load and updates its content when required asynchronously. 
 
 The primary goal of SPA is to reduce entire page reload on navigation. 
@@ -40,13 +39,13 @@ The primary goal of SPA is to reduce entire page reload on navigation.
 
 2. **Detailed documentation and help materials**: I personally feel [angular documentation](https://angular.io/guide/architecture) has been one of the best documentations available online for professional developers. However, there is a scope of improvement for newcomers. In addition you can find a lot of angular help materials across the internet.
 
-3. **Huge Support:** The angular community is growing day by day. There are nearly a million questions on [stackoverflow tagged with angular](https://stackoverflow.com/questions/tagged/angular), [66.5K stars](https://github.com/angular/angular/stargazers) on github. Angular is backed by tech giant Google.
+3. **Huge Support:** The angular community is growing day by day. There are nearly a million questions on [stackoverflow tagged with angular](https://stackoverflow.com/questions/tagged/angular), [77.8K stars](https://github.com/angular/angular/stargazers) on github. Angular is backed by tech giant Google.
 
-4. **Thousands of third-party libraries available**: There are nearly [45K npm libraries](https://www.npmjs.com/search?q=angular) for angular development. These libraries provides a great support for general development requirements.
+4. **Thousands of third-party libraries available**: There are nearly [56K npm libraries](https://www.npmjs.com/search?q=angular) for angular development. These libraries provides a great support for general development requirements.
 
-5. **Active development**: The Angular team actively maintains the development lifecycle of Angular. With a major version release every 6-8 months and around [1.3K contributors](https://github.com/angular/angular/graphs/contributors).
+5. **Active development**: The Angular team actively maintains the development lifecycle of Angular. With a major version release every 6-8 months and around [1.4K contributors](https://github.com/angular/angular/graphs/contributors).
 
-6. **Mobile ready**: With tools like Ionic, Cordova or NativeScript you can easily built native mobile app. In addition angular is a PWA ready from day 1 which can be later built as a TWA for your mobile devices.
+6. **Mobile ready**: With tools like [Ionic](https://ionicframework.com/), [Cordova](https://cordova.apache.org/) or [NativeScript](https://nativescript.org/) you can easily built native mobile app. In addition angular is a PWA ready from day 1 which can be later built as a TWA for your mobile devices.
 
 ## Cons: Where Angular fails :thumbsdown:
 1. **Learning curve**: As I already mentioned, angular ships with lot of built-in features,  irrespective of the usage. Mastering each of those features take its own time when compared to other JS framework. This adds a steep learning curve for the newbies.
@@ -60,7 +59,7 @@ Whether you are manager, team lead or developer. Many of you have this question 
 
 Here are some best use cases to select Angular as JS framework for your next app.
 
-  - **Big team**: Angular is a perfect pick if you have a good team size having Typescript knowledge.
+  - **Medium to Big team**: Angular is a perfect pick if you have a good team size having Typescript knowledge.
 
   - **Enterprise application**: Angular ships with all features required for the enterprise application development. Choose angular as your JS framework for your next enterprise application. 
 
@@ -68,6 +67,17 @@ Here are some best use cases to select Angular as JS framework for your next app
 
     > **Caution**: Angular is not a right pick for static websites with few pages. It's worthy with big/medium size applications with dynamic content.
 
+## Popular websites in Angular :chart_with_upwards_trend:
+Angular is a top pick for variety of popular organizations. Although there are still plenty of websites still running on AngularJs (1.x). Here is a small list of organizations that uses Angular (2+) as their tech stack.
+
+1. [IncomeTax Portal (Government of India)](https://eportal.incometax.gov.in/)
+2. [Freelancer.com](https://www.freelancer.com/)
+3. [Firebase](https://firebase.google.com/)
+4. [Microsoft Office Home App](https://www.office.com/apps?auth=2)
+5. [CitiBank Customer Service](https://online.citi.com/US/ag/contactus)
+6. [Purplle.com](https://www.purplle.com/)
+
+The list goes on and on. In addition to it most of google websites are built on top of Angular.
 
 ## Angular alternatives :eyes:
 
@@ -78,7 +88,7 @@ Popular JS frameworks:
  - [Vue](https://vuejs.org/)
  - [Ember](https://emberjs.com/)
 
-> **Note:** All above stats are relative to 4th Oct 2020.
+> **Note:** All above stats are relative to 22<sup>nd</sup> Nov 2021.
 
 &nbsp;  
 Happy Coding :man_technologist:
